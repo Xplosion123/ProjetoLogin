@@ -21,4 +21,6 @@ SELECT * FROM tb_Usuario;
 
 INSERT INTO tb_Usuario(Nome,Email,Senha,Nivel) VALUES
 ('Administrador','admin@gmail.com','123456','Admin');
-	
+
+INSERT INTO tb_Usuario (Nome, Email, Senha, Nivel) 
+VALUES ('Administrador', 'admin@gmail.com', '$2a$11$7PFyABkm8RCr2EAX1qvH3OvzEBxXUk...', 'Admin');

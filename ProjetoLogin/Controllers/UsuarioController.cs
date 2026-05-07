@@ -4,8 +4,7 @@ using ProjetoLogin.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using ProjetoLogin.Interfaces;
-using ProjetoLogin.Models;
+
 
 namespace LojaEcomerce.Controllers
 {
